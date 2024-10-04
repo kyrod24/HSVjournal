@@ -1,0 +1,43 @@
+
+
+
+.title {
+  font-size: 3em;
+  margin-bottom: 4rem;
+}
+
+header {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #dcdddd;
+  color: var(black);
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.navitem {
+  padding: 0.5em 0.5em;
+  background-color: inherit;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.3em;
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 500;
+  transition: background-color 0.3s, translate 0.3s;
+}
+
+.navitem:hover {
+  background-color: var(--CoolGray);
+  cursor: pointer;
+  translate: 0px -3px;
+}

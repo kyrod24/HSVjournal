@@ -1,0 +1,21 @@
+
+
+:root {
+  --OuterSpace: #2B2D42;
+  --CoolGray: #8D99AE;
+  --White: #EDF2F4;
+  --Red: #EF233C;
+  --Crimson: #D80032;
+}
+
+body {
+  background-color: var(--White);
+  margin-top: 0px;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-family: 'Clash Display', sans-serif;
+}
+
+.storyboard {
+  display: grid;
+}
